@@ -1,0 +1,69 @@
+/* --- FONTS --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+/* --- VAR --- */
+:root {
+  --color-bg: #1f1e1e;
+  --color-text: white;
+  --color-form: #353434;
+  --color-shadow: rgb(27, 27, 27);
+  --color-line: grey;  
+  --color-border-input: rgb(0, 230, 122);
+  --color-btn-hover: rgb(4, 196, 106);
+  --color-bg-input: #8d8d8d;
+  --color-text-input:#1f1e1e;
+  --color-bg-card: #414040;
+  --color-text-description: rgb(161, 161, 161);
+  --color-bg-modal: #1f1e1ef1;
+  --color-text-modal: rgb(4, 196, 106);
+  --color-text-btn-modal: rgb(27, 27, 27)
+}
+
+/* --- RESET --- */
+
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: 'Rubik', sans-serif;
+  line-height: 1.4em;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p, span, a {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit; 
+  margin: 0;
+}
+form, input, button, label {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  display: block;
+  color: inherit;
+  border: 0;
+}
+button {
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+}
+::selection {
+  background-color: var(--color-line);
+  color: var(--color-btn-hover);
+}
+::-webkit-scrollbar {
+  background: var(--color-line);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-btn-hover);
+}

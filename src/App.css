@@ -1,0 +1,12 @@
+.app {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.app__title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1em;
+}
